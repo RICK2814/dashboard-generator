@@ -1,0 +1,8 @@
+product_id,category,product_name,sales,revenue,year
+1,Electronics,Laptop,10,10000.0,2023
+2,Electronics,Phone,50,40000.0,2023
+3,Furniture,Desk,20,3000.0,2023
+4,Clothing,T-Shirt,100,2000.0,2024
+5,Clothing,Jeans,80,4000.0,2024
+6,Electronics,Tablet,30,15000.0,2024
+7,Furniture,Chair,40,6000.0,2024

@@ -1,0 +1,11 @@
+.env
+data.db
+__pycache__/
+uploads/
+test.py
+test_query.py
+test_upload.py
+fix_db.py
+inspect_db.py
+*.pyc
+.ipynb_checkpoints/
