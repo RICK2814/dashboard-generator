@@ -1,0 +1,8 @@
+# System dependencies for Streamlit Cloud
+# Required for pdfplumber and other packages
+libglib2.0-0
+libsm6
+libxext6
+libxrender-dev
+libgomp1
+libgthread-2.0-0
