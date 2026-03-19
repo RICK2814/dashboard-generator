@@ -14,4 +14,3 @@ Upload data → Ask questions → Get charts using AI.
 - SQLite (Database)
 - Gemini API (AI)
 - Plotly (Charts)
-
