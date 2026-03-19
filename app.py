@@ -260,30 +260,3 @@ if submitted and query:
 
             except Exception as e:
                 st.error(f"❌ Query execution failed: {str(e)}")
-    else:
-        response = requests.post(
-            BASE_URL + "/ask",
-            json={"query": query}
-        )
-
-        res = response.json()
-
-        if "error" in res:
-            st.error(res["error"])
-        else:
-            # Show insight
-            st.subheader("🧠 Insight")
-            st.write(res.get("insight", ""))
-
-            # Show charts
-            st.subheader("📊 Charts")
-
-            charts = res.get("charts", [])
-
-            if charts:
-                for chart in charts:
-                    # Robust JSON conversion
-                    fig = pio.from_json(json.dumps(chart))
-                    st.plotly_chart(fig, use_container_width=True)
-            else:
-                st.warning("No charts generated")
