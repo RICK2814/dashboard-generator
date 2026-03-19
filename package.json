@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Python Streamlit app with npm dev script wrapper",
   "scripts": {
-    "dev": "python -m streamlit run app.py --server.enableXsrfProtection false --server.enableCORS false"
+    "dev": ".venv/bin/python -m streamlit run app.py --server.enableXsrfProtection false --server.enableCORS false"
   }
 }
